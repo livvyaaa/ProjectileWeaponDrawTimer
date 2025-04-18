@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "modid",
+  "version": "${version}",
+  "name": "Projectile Weapon TImer",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "org.violetyy.projectileweapontimer.ModClient"
+    ],
+    "modmenu": [
+      "org.violetyy.projectileweapontimer.ModMenuIntegration"
+    ]
+
+  },
+  "mixins": [
+    "projectileweapontimer.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  },
+  "custom": {
+    "fabric-renderer-api-v1:contains_renderer": true,
+    "modmenu": {
+    }
+  }
+}

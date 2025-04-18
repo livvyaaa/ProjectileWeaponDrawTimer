@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "org.violetyy.projectileweapontimer.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "ProjectileWeaponTimerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
