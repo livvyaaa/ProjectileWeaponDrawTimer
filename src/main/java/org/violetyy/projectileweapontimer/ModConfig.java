@@ -12,4 +12,8 @@ public class ModConfig implements ConfigData {
     public int redBefore = 0xFF;
     public int greenBefore = 0xFF;
     public int blueBefore = 0xFF;
+
+    public boolean playDing = true;
+    public float dingVolume = 0.7f;
+    public float dingPitch = 0.4f;
 }

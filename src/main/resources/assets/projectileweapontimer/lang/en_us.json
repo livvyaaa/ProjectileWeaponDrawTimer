@@ -6,5 +6,9 @@
   "text.autoconfig.projectileweapontimer.option.greenBefore" : "Green (before)",
   "text.autoconfig.projectileweapontimer.option.redAfter" : "Red (after)",
   "text.autoconfig.projectileweapontimer.option.blueAfter" : "Blue (after)",
-  "text.autoconfig.projectileweapontimer.option.greenAfter" : "Green (after)"
+  "text.autoconfig.projectileweapontimer.option.greenAfter" : "Green (after)",
+
+  "text.autoconfig.projectileweapontimer.option.playDing" : "Play ding sound (after)",
+  "text.autoconfig.projectileweapontimer.option.dingVolume" : "Ding volume",
+  "text.autoconfig.projectileweapontimer.option.dingPithc" : "Ding pitch"
 }

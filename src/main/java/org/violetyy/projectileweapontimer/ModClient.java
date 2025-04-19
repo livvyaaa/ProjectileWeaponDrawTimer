@@ -1,15 +1,15 @@
 package org.violetyy.projectileweapontimer;
 
-import com.mojang.blaze3d.systems.RenderSystem;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.client.rendering.v1.HudRenderCallback;
 import net.minecraft.client.MinecraftClient;
-import net.minecraft.client.render.*;
+import net.minecraft.sound.SoundCategory;
+import net.minecraft.sound.SoundEvents;
 import net.minecraft.text.Text;
 import me.shedaniel.autoconfig.AutoConfig;
 import me.shedaniel.autoconfig.serializer.Toml4jConfigSerializer;
+import net.minecraft.util.math.Vec3d;
 import org.jetbrains.annotations.Nullable;
-import org.joml.Matrix4f;
 
 import java.text.DecimalFormat;
 
@@ -18,6 +18,8 @@ public class ModClient implements ClientModInitializer {
 
 	@Nullable
 	public static ModConfig config;
+
+	private boolean finishedCharging = false;
 
 	@Override
 	public void onInitializeClient() {
@@ -44,15 +46,21 @@ public class ModClient implements ClientModInitializer {
 
 					int textColor;
 					if (ticks >= 25 - (5 * access.templateProject$getqcLevel())) {
+						if (!finishedCharging && config.playDing && client.world != null) {
+							final Vec3d pos = client.player.getPos();
+							client.world.playSound(pos.x, pos.y, pos.z, SoundEvents.ENTITY_ARROW_HIT_PLAYER, SoundCategory.MASTER, config.dingVolume, config.dingPitch, false);
+						}
+						finishedCharging = true;
 						textColor = (config.redAfter << 16) + (config.greenAfter << 8) + config.blueAfter;
 					} else {
+						finishedCharging = false;
 						textColor = (config.redBefore << 16) + (config.greenBefore << 8) + config.blueBefore;
 					}
 
 					drawContext.drawText(
 							client.textRenderer,
 							text,
-							centerX - textHalfWidth, (int) (centerY * 1.1),
+							centerX - textHalfWidth, centerY + 18,
 							textColor,
 							true
 					);
@@ -60,4 +68,5 @@ public class ModClient implements ClientModInitializer {
 			}
 		});
 	}
+
 }
