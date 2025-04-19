@@ -1,7 +1,0 @@
-showTimer = true
-redAfter = 0
-greenAfter = 205
-blueAfter = 0
-redBefore = 255
-greenBefore = 0
-blueBefore = 0
