@@ -1,5 +1,6 @@
 package org.violetyy.projectileweapontimer.mixin;
 import net.minecraft.enchantment.Enchantment;
+import net.minecraft.enchantment.QuickChargeEnchantment;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.LivingEntity;
@@ -58,7 +59,7 @@ public abstract class ProjectileWeaponTimerMixin extends Entity implements Proje
                 Enchantment enchantment = entry.getKey();
                 int level = entry.getValue();
 
-                if (enchantment.getTranslationKey().equals(Enchantments.QUICK_CHARGE.getTranslationKey())) {
+                if (enchantment instanceof QuickChargeEnchantment) {
                     qcLevel = level;
                     break;
                 }

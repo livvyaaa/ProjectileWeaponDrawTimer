@@ -4,55 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="084458b6-b903-49d7-9a29-c3ec20945d8e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.6/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.6/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.6/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.6/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.6/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.6/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.6/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.6/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.6/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.6/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.6/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.6/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+    <list default="true" id="084458b6-b903-49d7-9a29-c3ec20945d8e" name="Changes" comment="qc4 support">
+      <change beforePath="$PROJECT_DIR$/.idea/modules/ProjectileWeaponDrawTimer.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/ProjectileWeaponDrawTimer.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/ProjectileWeaponDrawTimer.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/ProjectileWeaponDrawTimer.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Client.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Client.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/hitcooldownsync-refmap.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/violetyy/projectileweapontimer/ModClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/violetyy/projectileweapontimer/ModClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/violetyy/projectileweapontimer/mixin/ProjectileWeaponTimerMixin.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/violetyy/projectileweapontimer/mixin/ProjectileWeaponTimerMixin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2025-04-18-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-04-18-1.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2025-04-18-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-04-18-2.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2025-04-18-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-04-18-3.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2025-04-18-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-04-18-4.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2025-04-18-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-04-18-5.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2025-04-18-6.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-04-18-6.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2025-04-18-7.log.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-1.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-2.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-3.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-4.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-5.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/DIM-1/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/DIM-1/data/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/DIM1/data/raids_end.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/DIM1/data/raids_end.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/advancements/abf9489f-335c-323d-bf8c-6e98800dc4a3.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/advancements/abf9489f-335c-323d-bf8c-6e98800dc4a3.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/data/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/entities/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/entities/r.-1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/entities/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/entities/r.0.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/entities/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/entities/r.0.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/level.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/level.dat_old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/abf9489f-335c-323d-bf8c-6e98800dc4a3.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/abf9489f-335c-323d-bf8c-6e98800dc4a3.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/abf9489f-335c-323d-bf8c-6e98800dc4a3.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/abf9489f-335c-323d-bf8c-6e98800dc4a3.dat_old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.-1.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.-1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.0.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.0.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/New World/stats/abf9489f-335c-323d-bf8c-6e98800dc4a3.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/stats/abf9489f-335c-323d-bf8c-6e98800dc4a3.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/violetyy/projectileweapontimer/mixin/ProjectileWeaponTimerMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/violetyy/projectileweapontimer/mixin/ProjectileWeaponTimerMixin.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -143,6 +100,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\olive\IdeaProjects\ProjectileWeaponDrawTimer" />
       <recent name="C:\Users\olive\IdeaProjects\TemplateProject\src\main\resources\assets\projectileweapontimer\lang" />
     </key>
   </component>
@@ -201,11 +159,25 @@
       <workItem from="1744982429036" duration="7000" />
       <workItem from="1744982470808" duration="1580000" />
       <workItem from="1744985223759" duration="953000" />
-      <workItem from="1745024471611" duration="938000" />
+      <workItem from="1745024471611" duration="1447000" />
+      <workItem from="1745026382108" duration="7264000" />
     </task>
+    <task id="LOCAL-00001" summary="qc4 support">
+      <option name="closed" value="true" />
+      <created>1745025461041</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1745025461041</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="qc4 support" />
+    <option name="LAST_COMMIT_MESSAGE" value="qc4 support" />
   </component>
 </project>
