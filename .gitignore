@@ -20,3 +20,5 @@ replay_pid*
 
 /build/
 /run/
+
+/.idea/
