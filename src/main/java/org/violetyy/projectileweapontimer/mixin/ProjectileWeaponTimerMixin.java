@@ -1,4 +1,5 @@
 package org.violetyy.projectileweapontimer.mixin;
+import net.minecraft.enchantment.Enchantment;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.LivingEntity;
@@ -15,6 +16,8 @@ import net.minecraft.enchantment.Enchantments;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import org.violetyy.projectileweapontimer.ProjectileWeaponTimerUtils;
+
+import java.util.Map;
 
 
 @Mixin(LivingEntity.class)
@@ -48,6 +51,19 @@ public abstract class ProjectileWeaponTimerMixin extends Entity implements Proje
         int currentSlot = player.getInventory().selectedSlot;
 
         if (player.isUsingItem()) {
+
+            qcLevel = 0;
+            Map<Enchantment, Integer> enchantments = EnchantmentHelper.get(heldItem);
+            for (Map.Entry<Enchantment, Integer> entry : enchantments.entrySet()) {
+                Enchantment enchantment = entry.getKey();
+                int level = entry.getValue();
+
+                if (enchantment.getTranslationKey().equals(Enchantments.QUICK_CHARGE.getTranslationKey())) {
+                    qcLevel = level;
+                    break;
+                }
+            }
+
             if (previousSlot != -1 && (previousSlot != currentSlot || previousItem != currentItem)) {
                 ticksHeld = 0;
             }

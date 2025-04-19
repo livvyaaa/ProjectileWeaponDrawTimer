@@ -1,5 +1,5 @@
-[21:43:04] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.20.4 with Fabric Loader 0.16.9
-[21:43:05] [main/INFO] (FabricLoader) Loading 61 mods:
+[09:08:22] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.20.4 with Fabric Loader 0.16.9
+[09:08:23] [main/INFO] (FabricLoader) Loading 61 mods:
 	- cloth-basic-math 0.6.1
 	- cloth-config 13.0.138
 	- fabric-api 0.97.2+1.20.4
@@ -61,17 +61,17 @@
 	- modid 1.0
 	- modmenu 9.2.0
 	- placeholder-api 2.4.0-pre.1+1.20.4
-[21:43:05] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/olive/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/6a12aacc794f1078458433116e9ed42c1cc98096/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
-[21:43:05] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
-[21:43:05] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
-[21:43:06] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[21:43:11] [Datafixer Bootstrap/INFO] (Minecraft) 198 Datafixer optimizations took 99 milliseconds
-[21:43:13] [Render thread/INFO] (Minecraft) Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[21:43:13] [Render thread/INFO] (Minecraft) Setting user: Player411
-[21:43:13] [Render thread/INFO] (fabric-networking-api-v1) Force Packet Serialization is enabled to mimic remote connection on single player, this is the default behaviour on dev env. Add -Dfabric-api.networking.force-packet-serialization=false JVM arg to disable it.
-[21:43:13] [Render thread/INFO] (Mod Menu/Update Checker) Checking mod updates...
-[21:43:13] [Render thread/INFO] (Indigo) [Indigo] Different rendering plugin detected; not applying Indigo.
-[21:43:13] [Download-2/ERROR] (Minecraft) Failed to fetch user properties
+[09:08:23] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/olive/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/6a12aacc794f1078458433116e9ed42c1cc98096/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[09:08:23] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[09:08:23] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
+[09:08:24] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[09:08:29] [Datafixer Bootstrap/INFO] (Minecraft) 198 Datafixer optimizations took 104 milliseconds
+[09:08:30] [Render thread/INFO] (Minecraft) Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[09:08:30] [Render thread/INFO] (Minecraft) Setting user: Player186
+[09:08:30] [Render thread/INFO] (fabric-networking-api-v1) Force Packet Serialization is enabled to mimic remote connection on single player, this is the default behaviour on dev env. Add -Dfabric-api.networking.force-packet-serialization=false JVM arg to disable it.
+[09:08:31] [Render thread/INFO] (Indigo) [Indigo] Different rendering plugin detected; not applying Indigo.
+[09:08:31] [Render thread/INFO] (Mod Menu/Update Checker) Checking mod updates...
+[09:08:31] [Download-2/ERROR] (Minecraft) Failed to fetch user properties
 com.mojang.authlib.exceptions.InvalidCredentialsException: Status: 401
 	at com.mojang.authlib.exceptions.MinecraftClientHttpException.toAuthenticationException(MinecraftClientHttpException.java:59) ~[authlib-6.0.52.jar:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:150) ~[authlib-6.0.52.jar:?]
@@ -85,31 +85,31 @@ Caused by: com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 4
 	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:57) ~[authlib-6.0.52.jar:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:121) ~[authlib-6.0.52.jar:?]
 	... 5 more
-[21:43:13] [ModMenu/Update Checker/Fabric Loader/INFO] (Mod Menu/Update Checker) Update available for 'fabricloader@0.16.9'
-[21:43:14] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.2-snapshot
-[21:43:15] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, fabric, cloth-config, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-view-api-v2, fabric-blockrenderlayer-v1, fabric-client-tags-api-v1, fabric-command-api-v1, fabric-command-api-v2, fabric-commands-v0, fabric-containers-v0, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-crash-report-info-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-events-lifecycle-v0, fabric-game-rule-api-v1, fabric-gametest-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-keybindings-v0, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-message-api-v1, fabric-mining-level-api-v1, fabric-model-loading-api-v1, fabric-models-v0, fabric-networking-api-v1, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-renderer-registries-v1, fabric-rendering-data-attachment-v1, fabric-rendering-fluids-v1, fabric-rendering-v0, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-sound-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, modid, modmenu
-[21:43:15] [Worker-Main-4/INFO] (Minecraft) Found unifont_all_no_pua-15.1.04.hex, loading
-[21:43:16] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.goat_horn.play
-[21:43:16] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[21:43:16] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:entity.generic.wind_burst
-[21:43:16] [Render thread/INFO] (Minecraft) OpenAL initialized on device OpenAL Soft on Speakers (Sound Blaster X-Fi Go! Pro)
-[21:43:16] [Render thread/INFO] (Minecraft) Sound engine started
-[21:43:16] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
-[21:43:16] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
-[21:43:16] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[21:43:16] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[21:43:16] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
-[21:43:16] [Render thread/INFO] (Minecraft) Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
-[21:43:16] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[21:43:16] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[21:43:16] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[21:43:16] [Render thread/WARN] (Minecraft) Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[21:43:16] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
-[21:43:16] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[21:43:16] [Render thread/INFO] (Minecraft) Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[21:43:16] [Render thread/INFO] (Minecraft) Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
-[21:43:16] [IO-Worker-1/INFO] (Minecraft) Could not authorize you against Realms server: Invalid session id
-[21:43:16] [IO-Worker-1/ERROR] (Minecraft) Couldn't connect to realms
+[09:08:31] [ModMenu/Update Checker/Fabric Loader/INFO] (Mod Menu/Update Checker) Update available for 'fabricloader@0.16.9'
+[09:08:31] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.2-snapshot
+[09:08:32] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, fabric, cloth-config, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-view-api-v2, fabric-blockrenderlayer-v1, fabric-client-tags-api-v1, fabric-command-api-v1, fabric-command-api-v2, fabric-commands-v0, fabric-containers-v0, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-crash-report-info-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-events-lifecycle-v0, fabric-game-rule-api-v1, fabric-gametest-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-keybindings-v0, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-message-api-v1, fabric-mining-level-api-v1, fabric-model-loading-api-v1, fabric-models-v0, fabric-networking-api-v1, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-renderer-registries-v1, fabric-rendering-data-attachment-v1, fabric-rendering-fluids-v1, fabric-rendering-v0, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-sound-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, modid, modmenu
+[09:08:32] [Worker-Main-1/INFO] (Minecraft) Found unifont_all_no_pua-15.1.04.hex, loading
+[09:08:33] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.goat_horn.play
+[09:08:33] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[09:08:33] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:entity.generic.wind_burst
+[09:08:33] [Render thread/INFO] (Minecraft) OpenAL initialized on device OpenAL Soft on Speakers (Sound Blaster X-Fi Go! Pro)
+[09:08:33] [Render thread/INFO] (Minecraft) Sound engine started
+[09:08:33] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[09:08:33] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[09:08:33] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[09:08:33] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[09:08:33] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[09:08:33] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[09:08:33] [Render thread/INFO] (Minecraft) Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[09:08:33] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[09:08:33] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[09:08:33] [Render thread/WARN] (Minecraft) Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[09:08:33] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[09:08:33] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[09:08:33] [Render thread/INFO] (Minecraft) Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[09:08:33] [Render thread/INFO] (Minecraft) Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[09:08:34] [IO-Worker-1/INFO] (Minecraft) Could not authorize you against Realms server: Invalid session id
+[09:08:34] [IO-Worker-1/ERROR] (Minecraft) Couldn't connect to realms
 net.minecraft.client.realms.exception.RealmsServiceException: Realms authentication error with message 'Invalid session id'
 	at net.minecraft.client.realms.RealmsClient.execute(RealmsClient.java:447) ~[minecraft-merged-039efbdcf4-1.20.4-net.fabricmc.yarn.1_20_4.1.20.4+build.3-v2.jar:?]
 	at net.minecraft.client.realms.RealmsClient.clientCompatible(RealmsClient.java:232) ~[minecraft-merged-039efbdcf4-1.20.4-net.fabricmc.yarn.1_20_4.1.20.4+build.3-v2.jar:?]
@@ -118,192 +118,39 @@ net.minecraft.client.realms.exception.RealmsServiceException: Realms authenticat
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
 	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[21:44:18] [Render thread/INFO] (Minecraft) Loaded 7 recipes
-[21:44:18] [Render thread/INFO] (Minecraft) Loaded 1271 advancements
-[21:44:18] [Render thread/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 64 new biomes in 889.6 μs
-[21:44:18] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.20.4
-[21:44:18] [Server thread/INFO] (Minecraft) Generating keypair
-[21:44:18] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
-[21:44:20] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[21:44:20] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[21:44:20] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[21:44:20] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[21:44:20] [Render thread/INFO] (Minecraft) Time elapsed: 1915 ms
-[21:44:20] [Server thread/INFO] (Minecraft) Changing view distance to 12, from 10
-[21:44:20] [Server thread/INFO] (Minecraft) Changing simulation distance to 12, from 0
-[21:44:21] [Server thread/INFO] (Minecraft) Player411[local:E:93cd8c7e] logged in with entity id 9 at (-3.1634057140627805, -57.833890739061786, 16.658487015859315)
-[21:44:21] [Server thread/INFO] (Minecraft) Player411 joined the game
-[21:44:22] [Render thread/INFO] (Minecraft) Loaded 26 advancements
-[21:44:23] [Server thread/INFO] (Minecraft) Player411 has made the advancement [Ol' Betsy]
-[21:44:23] [Render thread/INFO] (Minecraft) [System] [CHAT] Player411 has made the advancement [Ol' Betsy]
-[21:44:23] [Render thread/INFO] (Minecraft) Loaded 30 advancements
-[21:44:23] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 184.2 Right X: 241.8 Current Y: 50.88
-[21:44:23] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 184.2 Right X: 241.8 Current Y: 50.88
-[21:44:23] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 184.2 Right X: 241.8 Current Y: 50.88
-[21:44:23] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 185.4 Right X: 240.6 Current Y: 53.76
-[21:44:23] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 185.4 Right X: 240.6 Current Y: 53.76
-[21:44:23] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 186.6 Right X: 239.4 Current Y: 56.64
-[21:44:23] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 186.6 Right X: 239.4 Current Y: 56.64
-[21:44:23] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 186.6 Right X: 239.4 Current Y: 56.64
-[21:44:23] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 187.8 Right X: 238.2 Current Y: 59.52
-[21:44:23] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 187.8 Right X: 238.2 Current Y: 59.52
-[21:44:23] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 189.0 Right X: 237.0 Current Y: 62.4
-[21:44:23] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 189.0 Right X: 237.0 Current Y: 62.4
-[21:44:23] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 189.0 Right X: 237.0 Current Y: 62.4
-[21:44:24] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 190.2 Right X: 235.8 Current Y: 65.28
-[21:44:24] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 190.2 Right X: 235.8 Current Y: 65.28
-[21:44:24] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 191.4 Right X: 234.6 Current Y: 68.16
-[21:44:24] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 191.4 Right X: 234.6 Current Y: 68.16
-[21:44:24] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 191.4 Right X: 234.6 Current Y: 68.16
-[21:44:24] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 192.6 Right X: 233.4 Current Y: 71.04
-[21:44:24] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 192.6 Right X: 233.4 Current Y: 71.04
-[21:44:24] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 193.8 Right X: 232.2 Current Y: 73.92
-[21:44:24] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 193.8 Right X: 232.2 Current Y: 73.92
-[21:44:24] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 193.8 Right X: 232.2 Current Y: 73.92
-[21:44:24] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 195.0 Right X: 231.0 Current Y: 76.8
-[21:44:24] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 195.0 Right X: 231.0 Current Y: 76.8
-[21:44:24] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 196.2 Right X: 229.8 Current Y: 79.68
-[21:44:24] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 196.2 Right X: 229.8 Current Y: 79.68
-[21:44:24] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 196.2 Right X: 229.8 Current Y: 79.68
-[21:44:24] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 197.4 Right X: 228.6 Current Y: 82.56
-[21:44:24] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 197.4 Right X: 228.6 Current Y: 82.56
-[21:44:24] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 198.6 Right X: 227.4 Current Y: 85.44
-[21:44:24] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 198.6 Right X: 227.4 Current Y: 85.44
-[21:44:24] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 198.6 Right X: 227.4 Current Y: 85.44
-[21:44:24] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 199.8 Right X: 226.2 Current Y: 88.32
-[21:44:24] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 199.8 Right X: 226.2 Current Y: 88.32
-[21:44:24] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 201.0 Right X: 225.0 Current Y: 91.2
-[21:44:24] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 201.0 Right X: 225.0 Current Y: 91.2
-[21:44:24] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 201.0 Right X: 225.0 Current Y: 91.2
-[21:44:24] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 202.2 Right X: 223.8 Current Y: 94.08
-[21:44:24] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 202.2 Right X: 223.8 Current Y: 94.08
-[21:44:24] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 203.4 Right X: 222.6 Current Y: 96.96
-[21:44:24] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 203.4 Right X: 222.6 Current Y: 96.96
-[21:44:24] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 203.4 Right X: 222.6 Current Y: 96.96
-[21:44:24] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 204.6 Right X: 221.4 Current Y: 99.840004
-[21:44:24] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 204.6 Right X: 221.4 Current Y: 99.840004
-[21:44:24] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 205.8 Right X: 220.2 Current Y: 102.72
-[21:44:24] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 205.8 Right X: 220.2 Current Y: 102.72
-[21:44:24] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 205.8 Right X: 220.2 Current Y: 102.72
-[21:44:24] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 207.0 Right X: 219.0 Current Y: 105.600006
-[21:44:24] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 207.0 Right X: 219.0 Current Y: 105.600006
-[21:44:24] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 207.0 Right X: 219.0 Current Y: 105.600006
-[21:44:24] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 208.2 Right X: 217.8 Current Y: 108.479996
-[21:44:24] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 208.2 Right X: 217.8 Current Y: 108.479996
-[21:44:24] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 209.4 Right X: 216.6 Current Y: 111.36
-[21:44:24] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 209.4 Right X: 216.6 Current Y: 111.36
-[21:44:24] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 210.6 Right X: 215.4 Current Y: 114.24
-[21:44:24] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 210.6 Right X: 215.4 Current Y: 114.24
-[21:44:24] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 210.6 Right X: 215.4 Current Y: 114.24
-[21:44:24] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 211.8 Right X: 214.2 Current Y: 117.119995
-[21:44:24] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 211.8 Right X: 214.2 Current Y: 117.119995
-[21:44:24] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 211.8 Right X: 214.2 Current Y: 117.119995
-[21:44:24] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 213.0 Right X: 213.0 Current Y: 120.0
-[21:44:24] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 213.0 Right X: 213.0 Current Y: 120.0
-[21:44:25] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 213.0 Right X: 213.0 Current Y: 120.0
-[21:44:25] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 213.0 Right X: 213.0 Current Y: 120.0
-[21:44:25] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 213.0 Right X: 213.0 Current Y: 120.0
-[21:44:25] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 213.0 Right X: 213.0 Current Y: 120.0
-[21:44:25] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 213.0 Right X: 213.0 Current Y: 120.0
-[21:44:25] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 213.0 Right X: 213.0 Current Y: 120.0
-[21:44:25] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 213.0 Right X: 213.0 Current Y: 120.0
-[21:44:25] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 213.0 Right X: 213.0 Current Y: 120.0
-[21:44:25] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 213.0 Right X: 213.0 Current Y: 120.0
-[21:44:25] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 213.0 Right X: 213.0 Current Y: 120.0
-[21:44:25] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 213.0 Right X: 213.0 Current Y: 120.0
-[21:44:25] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 213.0 Right X: 213.0 Current Y: 120.0
-[21:44:25] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 213.0 Right X: 213.0 Current Y: 120.0
-[21:44:25] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 213.0 Right X: 213.0 Current Y: 120.0
-[21:44:25] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 213.0 Right X: 213.0 Current Y: 120.0
-[21:44:25] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 213.0 Right X: 213.0 Current Y: 120.0
-[21:44:25] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 213.0 Right X: 213.0 Current Y: 120.0
-[21:44:25] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 213.0 Right X: 213.0 Current Y: 120.0
-[21:44:25] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 213.0 Right X: 213.0 Current Y: 120.0
-[21:44:25] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 213.0 Right X: 213.0 Current Y: 120.0
-[21:44:25] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 213.0 Right X: 213.0 Current Y: 120.0
-[21:44:25] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 213.0 Right X: 213.0 Current Y: 120.0
-[21:44:25] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 213.0 Right X: 213.0 Current Y: 120.0
-[21:44:25] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 213.0 Right X: 213.0 Current Y: 120.0
-[21:44:25] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 213.0 Right X: 213.0 Current Y: 120.0
-[21:44:25] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 213.0 Right X: 213.0 Current Y: 120.0
-[21:44:25] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 213.0 Right X: 213.0 Current Y: 120.0
-[21:44:26] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 184.2 Right X: 241.8 Current Y: 50.88
-[21:44:26] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 184.2 Right X: 241.8 Current Y: 50.88
-[21:44:26] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 185.4 Right X: 240.6 Current Y: 53.76
-[21:44:26] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 185.4 Right X: 240.6 Current Y: 53.76
-[21:44:26] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 186.6 Right X: 239.4 Current Y: 56.64
-[21:44:26] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 186.6 Right X: 239.4 Current Y: 56.64
-[21:44:26] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 186.6 Right X: 239.4 Current Y: 56.64
-[21:44:26] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 187.8 Right X: 238.2 Current Y: 59.52
-[21:44:26] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 187.8 Right X: 238.2 Current Y: 59.52
-[21:44:26] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 187.8 Right X: 238.2 Current Y: 59.52
-[21:44:26] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 189.0 Right X: 237.0 Current Y: 62.4
-[21:44:26] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 189.0 Right X: 237.0 Current Y: 62.4
-[21:44:26] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 190.2 Right X: 235.8 Current Y: 65.28
-[21:44:26] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 190.2 Right X: 235.8 Current Y: 65.28
-[21:44:26] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 190.2 Right X: 235.8 Current Y: 65.28
-[21:44:26] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 191.4 Right X: 234.6 Current Y: 68.16
-[21:44:26] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 191.4 Right X: 234.6 Current Y: 68.16
-[21:44:26] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 192.6 Right X: 233.4 Current Y: 71.04
-[21:44:26] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 192.6 Right X: 233.4 Current Y: 71.04
-[21:44:26] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 193.8 Right X: 232.2 Current Y: 73.92
-[21:44:26] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 193.8 Right X: 232.2 Current Y: 73.92
-[21:44:26] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 193.8 Right X: 232.2 Current Y: 73.92
-[21:44:26] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 195.0 Right X: 231.0 Current Y: 76.8
-[21:44:26] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 195.0 Right X: 231.0 Current Y: 76.8
-[21:44:26] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 196.2 Right X: 229.8 Current Y: 79.68
-[21:44:26] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 196.2 Right X: 229.8 Current Y: 79.68
-[21:44:26] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 196.2 Right X: 229.8 Current Y: 79.68
-[21:44:26] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 197.4 Right X: 228.6 Current Y: 82.56
-[21:44:26] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 197.4 Right X: 228.6 Current Y: 82.56
-[21:44:26] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 198.6 Right X: 227.4 Current Y: 85.44
-[21:44:26] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 198.6 Right X: 227.4 Current Y: 85.44
-[21:44:26] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 198.6 Right X: 227.4 Current Y: 85.44
-[21:44:26] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 199.8 Right X: 226.2 Current Y: 88.32
-[21:44:26] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 199.8 Right X: 226.2 Current Y: 88.32
-[21:44:26] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 199.8 Right X: 226.2 Current Y: 88.32
-[21:44:26] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 201.0 Right X: 225.0 Current Y: 91.2
-[21:44:26] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 201.0 Right X: 225.0 Current Y: 91.2
-[21:44:27] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 202.2 Right X: 223.8 Current Y: 94.08
-[21:44:27] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 202.2 Right X: 223.8 Current Y: 94.08
-[21:44:27] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 202.2 Right X: 223.8 Current Y: 94.08
-[21:44:27] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 203.4 Right X: 222.6 Current Y: 96.96
-[21:44:27] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 203.4 Right X: 222.6 Current Y: 96.96
-[21:44:27] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 204.6 Right X: 221.4 Current Y: 99.840004
-[21:44:27] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 204.6 Right X: 221.4 Current Y: 99.840004
-[21:44:27] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 204.6 Right X: 221.4 Current Y: 99.840004
-[21:44:27] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 205.8 Right X: 220.2 Current Y: 102.72
-[21:44:27] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 205.8 Right X: 220.2 Current Y: 102.72
-[21:44:27] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 207.0 Right X: 219.0 Current Y: 105.600006
-[21:44:27] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 207.0 Right X: 219.0 Current Y: 105.600006
-[21:44:27] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 208.2 Right X: 217.8 Current Y: 108.479996
-[21:44:27] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 208.2 Right X: 217.8 Current Y: 108.479996
-[21:44:27] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 208.2 Right X: 217.8 Current Y: 108.479996
-[21:44:27] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 209.4 Right X: 216.6 Current Y: 111.36
-[21:44:27] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 209.4 Right X: 216.6 Current Y: 111.36
-[21:44:27] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 210.6 Right X: 215.4 Current Y: 114.24
-[21:44:27] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 210.6 Right X: 215.4 Current Y: 114.24
-[21:44:27] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 210.6 Right X: 215.4 Current Y: 114.24
-[21:44:27] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 211.8 Right X: 214.2 Current Y: 117.119995
-[21:44:27] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 211.8 Right X: 214.2 Current Y: 117.119995
-[21:44:27] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 211.8 Right X: 214.2 Current Y: 117.119995
-[21:44:27] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 213.0 Right X: 213.0 Current Y: 120.0
-[21:44:27] [Render thread/INFO] (Minecraft) [STDOUT]: V Positions -> Left X: 213.0 Right X: 213.0 Current Y: 120.0
-[21:44:27] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[21:44:27] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[21:44:27] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[21:44:27] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[21:44:29] [Render thread/INFO] (Minecraft) Stopping!
-[21:44:29] [Server thread/INFO] (Minecraft) Player411 lost connection: Disconnected
-[21:44:29] [Server thread/INFO] (Minecraft) Player411 left the game
-[21:44:29] [Server thread/INFO] (Minecraft) Stopping singleplayer server as player logged out
-[21:44:29] [Server thread/INFO] (Minecraft) Stopping server
-[21:44:29] [Server thread/INFO] (Minecraft) Saving players
-[21:44:29] [Server thread/INFO] (Minecraft) Saving worlds
-[21:44:29] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[21:44:29] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[21:44:29] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[21:44:29] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (New World): All chunks are saved
-[21:44:29] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[21:44:29] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[21:44:29] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved
+[09:08:38] [Render thread/INFO] (Minecraft) Loaded 7 recipes
+[09:08:38] [Render thread/INFO] (Minecraft) Loaded 1271 advancements
+[09:08:39] [Render thread/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 64 new biomes in 970.4 μs
+[09:08:39] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.20.4
+[09:08:39] [Server thread/INFO] (Minecraft) Generating keypair
+[09:08:39] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
+[09:08:41] [Server thread/INFO] (Minecraft) Changing view distance to 12, from 10
+[09:08:41] [Server thread/INFO] (Minecraft) Changing simulation distance to 12, from 0
+[09:08:42] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[09:08:42] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[09:08:42] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[09:08:42] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[09:08:42] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[09:08:42] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[09:08:42] [Render thread/INFO] (Minecraft) Time elapsed: 2952 ms
+[09:08:42] [Server thread/INFO] (Minecraft) Player186[local:E:548a4f6e] logged in with entity id 4 at (2.408256665349359, -57.99866402088785, -7.879247522482921)
+[09:08:42] [Server thread/INFO] (Minecraft) Player186 joined the game
+[09:08:43] [Render thread/INFO] (Minecraft) Loaded 11 advancements
+[09:08:51] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[09:08:51] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[09:08:51] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[09:08:51] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[09:08:51] [Server thread/INFO] (Minecraft) Player186 lost connection: Disconnected
+[09:08:51] [Server thread/INFO] (Minecraft) Player186 left the game
+[09:08:51] [Server thread/INFO] (Minecraft) Stopping singleplayer server as player logged out
+[09:08:51] [Server thread/INFO] (Minecraft) Stopping server
+[09:08:51] [Server thread/INFO] (Minecraft) Saving players
+[09:08:51] [Server thread/INFO] (Minecraft) Saving worlds
+[09:08:51] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[09:08:51] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[09:08:51] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[09:08:51] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (New World): All chunks are saved
+[09:08:51] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[09:08:51] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[09:08:51] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved
+[09:08:52] [Render thread/INFO] (Minecraft) Stopping!
