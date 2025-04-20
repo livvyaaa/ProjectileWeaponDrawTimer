@@ -93,15 +93,18 @@ public class ModClient implements ClientModInitializer {
 			int centerY = (context.getScaledWindowHeight() - 1) / 2;
 
 			MinecraftClient client = MinecraftClient.getInstance();
+			if (client.player == null) return;
+			assert config != null;
+			if (!config.showCrosshair) return;
+
 			if (client.player instanceof ProjectileWeaponTimerUtils access) {
 				int ticks = access.templateProject$getHeldTicks();
 
 				if (ticks != 0) {
-					System.out.println(tickDelta);
 					float t = MathHelper.clamp(actualTicksElapsed / (25f - (5 * access.templateProject$getqcLevel())), 0f, 1f); // From 0 to 1
 
 					int armLength = 5;
-					int color = 0xFFFF0000;
+					int color;
 
 					int startPos = 5;
 
@@ -119,6 +122,12 @@ public class ModClient implements ClientModInitializer {
 
 					int brX = centerX - tlDistX;
 					int brY = centerY - tlDistY;
+
+					if (ticks >= 25 - (5 * access.templateProject$getqcLevel())) {
+						color = 0xFF000000 + (config.redAfter << 16) + (config.greenAfter << 8) + config.blueAfter;
+					} else {
+						color = 0xFF000000 + (config.redBefore << 16) + (config.greenBefore << 8) + config.blueBefore;
+					}
 
 					context.drawVerticalLine(tlX, tlY - armLength - 1, tlY, color);
 					context.drawHorizontalLine(tlX - armLength, tlX, tlY, color);

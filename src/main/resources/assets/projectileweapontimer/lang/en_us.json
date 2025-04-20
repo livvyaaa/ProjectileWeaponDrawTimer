@@ -1,5 +1,6 @@
 {
   "text.autoconfig.projectileweapontimer.title" : "Projectile Weapon Timer",
+  "text.autoconfig.projectileweapontimer.option.showCrosshair" : "Show crosshair",
   "text.autoconfig.projectileweapontimer.option.showTimer" : "Show timer",
   "text.autoconfig.projectileweapontimer.option.redBefore" : "Red (before)",
   "text.autoconfig.projectileweapontimer.option.blueBefore" : "Blue (before)",
