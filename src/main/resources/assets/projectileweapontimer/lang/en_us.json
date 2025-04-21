@@ -1,6 +1,8 @@
 {
   "text.autoconfig.projectileweapontimer.title" : "Projectile Weapon Timer",
   "text.autoconfig.projectileweapontimer.option.showCrosshair" : "Show crosshair",
+  "text.autoconfig.projectileweapontimer.option.inverted" : "Inverted crosshair",
+  "text.autoconfig.projectileweapontimer.option.square" : "Square crosshair (must be inverted)",
   "text.autoconfig.projectileweapontimer.option.crosshairArmLength" : "Crosshair arm length (pixels)",
   "text.autoconfig.projectileweapontimer.option.crosshairDistance" : "Distance of crosshair from center (pixels)",
   "text.autoconfig.projectileweapontimer.option.showTimer" : "Show timer",

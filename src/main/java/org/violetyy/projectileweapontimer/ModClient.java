@@ -1,9 +1,14 @@
 package org.violetyy.projectileweapontimer;
 
+import com.mojang.blaze3d.systems.RenderSystem;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
 import net.fabricmc.fabric.api.client.rendering.v1.HudRenderCallback;
 import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.render.BufferBuilder;
+import net.minecraft.client.render.Tessellator;
+import net.minecraft.client.render.VertexFormat;
+import net.minecraft.client.render.VertexFormats;
 import net.minecraft.sound.SoundCategory;
 import net.minecraft.sound.SoundEvents;
 import net.minecraft.text.Text;
@@ -129,21 +134,37 @@ public class ModClient implements ClientModInitializer {
 						color = 0xFF000000 + (config.redBefore << 16) + (config.greenBefore << 8) + config.blueBefore;
 					}
 
-					context.drawVerticalLine(tlX, tlY - armLength - 1, tlY, color);
-					context.drawHorizontalLine(tlX - armLength, tlX, tlY, color);
+					if (!config.inverted) {
 
-					context.drawVerticalLine(trX, trY - armLength - 1, trY, color);
-					context.drawHorizontalLine(trX, trX + armLength, trY, color);
+						context.drawVerticalLine(tlX, tlY - armLength - 1, tlY, color);
+						context.drawHorizontalLine(tlX - armLength, tlX, tlY, color);
 
-					context.drawVerticalLine(blX, blY, blY + armLength + 1, color);
-					context.drawHorizontalLine(blX - armLength, blX, blY, color);
+						context.drawVerticalLine(trX, trY - armLength - 1, trY, color);
+						context.drawHorizontalLine(trX, trX + armLength, trY, color);
 
-					context.drawVerticalLine(brX, brY, brY + armLength + 1, color);
-					context.drawHorizontalLine(brX, brX + armLength, brY, color);
+						context.drawVerticalLine(blX, blY, blY + armLength + 1, color);
+						context.drawHorizontalLine(blX - armLength, blX, blY, color);
+
+						context.drawVerticalLine(brX, brY, brY + armLength + 1, color);
+						context.drawHorizontalLine(brX, brX + armLength, brY, color);
+
+					} else if (!config.square){
+
+						context.drawHorizontalLine(tlX, trX, tlY - armLength - 1, color);
+						context.drawVerticalLine(trX + armLength + 1, trY - 1, brY + 1, color);
+						context.drawHorizontalLine(blX, brX, blY + armLength + 1, color);
+						context.drawVerticalLine(blX - armLength - 1, tlY - 1, blY + 1, color);
+
+					} else {
+
+						context.drawHorizontalLine(tlX, trX, tlY - armLength - 1 + (armLength+1), color);
+						context.drawVerticalLine(trX + armLength + 1 - (armLength+1), trY - 1, brY + 1, color);
+						context.drawHorizontalLine(blX, brX, blY + armLength + 1 - (armLength+1), color);
+						context.drawVerticalLine(blX - armLength - 1 + (armLength+1), tlY - 1, blY + 1, color);
+
+					}
 				}
 			}
 		});
-
 	}
-
 }

@@ -6,6 +6,8 @@ import me.shedaniel.autoconfig.annotation.Config;
 @Config(name = "projectileweapontimer")
 public class ModConfig implements ConfigData {
     public boolean showCrosshair = true;
+    public boolean inverted = false;
+    public boolean square = false;
     public int crosshairArmLength = 5;
     public int crosshairDistance = 5;
     public boolean showTimer = true;
