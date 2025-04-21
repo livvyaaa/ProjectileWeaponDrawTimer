@@ -6,6 +6,7 @@
 
 .mtj.tmp/
 
+
 *.jar
 *.war
 *.nar
@@ -13,6 +14,8 @@
 *.zip
 *.tar.gz
 *.rar
+
+!gradle-wrapper.jar
 
 hs_err_pid*
 replay_pid*

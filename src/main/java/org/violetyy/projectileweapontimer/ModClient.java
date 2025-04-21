@@ -103,10 +103,10 @@ public class ModClient implements ClientModInitializer {
 				if (ticks != 0) {
 					float t = MathHelper.clamp(actualTicksElapsed / (25f - (5 * access.templateProject$getqcLevel())), 0f, 1f); // From 0 to 1
 
-					int armLength = 5;
+					int armLength = config.crosshairArmLength;
 					int color;
 
-					int startPos = 5;
+					int startPos = config.crosshairDistance;
 
 					int tlX = MathHelper.lerp(t, centerX - startPos, centerX);
 					int tlY = MathHelper.lerp(t, centerY - startPos, centerY);

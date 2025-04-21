@@ -1,6 +1,8 @@
 {
   "text.autoconfig.projectileweapontimer.title" : "Projectile Weapon Timer",
   "text.autoconfig.projectileweapontimer.option.showCrosshair" : "Show crosshair",
+  "text.autoconfig.projectileweapontimer.option.crosshairArmLength" : "Crosshair arm length (pixels)",
+  "text.autoconfig.projectileweapontimer.option.crosshairDistance" : "Distance of crosshair from center (pixels)",
   "text.autoconfig.projectileweapontimer.option.showTimer" : "Show timer",
   "text.autoconfig.projectileweapontimer.option.redBefore" : "Red (before)",
   "text.autoconfig.projectileweapontimer.option.blueBefore" : "Blue (before)",
@@ -11,5 +13,5 @@
 
   "text.autoconfig.projectileweapontimer.option.playDing" : "Play ding sound (after)",
   "text.autoconfig.projectileweapontimer.option.dingVolume" : "Ding volume",
-  "text.autoconfig.projectileweapontimer.option.dingPithc" : "Ding pitch"
+  "text.autoconfig.projectileweapontimer.option.dingPitch" : "Ding pitch"
 }
