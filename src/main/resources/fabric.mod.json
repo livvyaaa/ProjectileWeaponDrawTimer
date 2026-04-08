@@ -18,7 +18,6 @@
 
   },
   "mixins": [
-    "projectileweapontimer.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=${loader_version}",
