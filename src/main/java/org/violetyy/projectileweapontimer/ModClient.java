@@ -46,26 +46,25 @@ public class ModClient implements ClientModInitializer {
 			OptionalDouble potentialProgress = getProgress(player);
 
 			potentialProgress.ifPresent(progress -> {
-				int centerX = client.getWindow().getScaledWidth() / 2;
-				int centerY = client.getWindow().getScaledHeight() / 2;
 				if (config.showTimer) {
-					drawTimer(context, progress, client, player, centerX, centerY);
+					drawTimer(context, progress, client, player);
 				}
 
 				if (config.showCrosshair) {
-					drawCrosshair(context, progress, centerX, centerY);
+					drawCrosshair(context, progress);
 				}
 			});
 		});
 	}
 
-	private void drawTimer(DrawContext context, double progress, MinecraftClient client, ClientPlayerEntity player, int centerX, int centerY) {
+	private void drawTimer(DrawContext context, double progress, MinecraftClient client, ClientPlayerEntity player) {
 		if (config == null) {
 			throw new IllegalStateException("Config not initialized!");
 		}
-
 		Text text = Text.literal(new DecimalFormat("#0.00").format(getUseSeconds(player)) + "s");
 
+		int centerX = client.getWindow().getScaledWidth() / 2;
+		int centerY = client.getWindow().getScaledHeight() / 2;
 		int textHalfWidth = client.textRenderer.getWidth(text) / 2;
 
 		int textColor;
@@ -90,10 +89,13 @@ public class ModClient implements ClientModInitializer {
 		);
 	}
 
-	private static void drawCrosshair(DrawContext context, double progress, int centerX, int centerY) {
+	private static void drawCrosshair(DrawContext context, double progress) {
 		if (config == null) {
 			throw new IllegalStateException("Config not initialized!");
 		}
+
+		int centerX = (context.getScaledWindowWidth() - 1) / 2;
+		int centerY = (context.getScaledWindowHeight() - 1) / 2;
 
 		int armLength = config.crosshairArmLength;
 		int color;
